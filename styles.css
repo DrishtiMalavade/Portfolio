@@ -2,8 +2,8 @@ body {
     margin: 0%;
     background-color: #000000;
     color: aliceblue;
-
 }
+
 .logo {
     display: flex;
     align-items: center;
@@ -115,7 +115,7 @@ body {
 }
 .btn {
     height: 40px;
-    margin-left:70px;
+    margin-left:10%;
     width: 400px;
     border: 2px solid white;
     border-radius: 5px; /* Curved border */
@@ -163,8 +163,9 @@ body {
 
 }
 .heading2 {
-    width: 87%;
+    width: 90%;
     display: flex;
+    padding-right: 5%;
     justify-content: center;
     align-items: center;
 }
@@ -199,6 +200,14 @@ body {
     padding: 15px;
     font-size: 20px;
 }
+
+
+/* .info-text {
+    display: flex;
+    align-items: stretch;
+    font-size: 20px;    
+} */
+
 .more {
     display: flex;
     justify-content: center;
@@ -214,10 +223,11 @@ body {
 }
 
 .heading3 {
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 9%;
 }
 
 .stars {
@@ -227,8 +237,8 @@ body {
 .tech {
     display: flex;
     flex-direction: stretch;
-    padding-left: 90px;
-    padding-right: 90px;
+    margin-left: 10%;
+    margin-right: 10%;
     padding-top: 45px;
     padding-bottom: 45px;
     font-size: 30px;
@@ -236,4 +246,7 @@ body {
 
 .skill-icons{
     padding-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
