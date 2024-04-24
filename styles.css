@@ -254,3 +254,55 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+form {
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 500px;
+}
+
+.form-group {
+ margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    width: calc(100% - 22px); 
+}
+
+button[type="submit"] {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+button[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+form {
+    width: 90%;
+    margin: 20px auto;
+}
+}
