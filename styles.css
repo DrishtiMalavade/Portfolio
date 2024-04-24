@@ -108,11 +108,11 @@ body {
     }
 }
 
-
 .left {
     display: flex;
     flex-direction: column;
 }
+
 .btn {
     height: 40px;
     margin-left:10%;
@@ -121,6 +121,10 @@ body {
     border-radius: 5px; /* Curved border */
     background-color: transparent;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
 
 }
 
