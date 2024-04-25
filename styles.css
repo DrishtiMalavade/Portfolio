@@ -255,6 +255,14 @@ body {
     align-items: center;
 }
 
+.heading4 {
+    padding-top: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 form {
     background-color: transparent;
     border: 2px solid white;
